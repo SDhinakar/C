@@ -9,4 +9,5 @@ void main()
     c=strlen(a);
     strrev(a);
     printf("Reverse of the string: %s and of length %d", a,c);
+    //
 }
