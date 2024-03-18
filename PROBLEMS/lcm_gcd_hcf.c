@@ -8,4 +8,4 @@ int main()
     int gcd=(a%b);
     printf("LCM of %d and %d is %d\n",a,b,lcm);
     printf("GCD of %d and %d is %d\n",a,b,gcd);
-}
+}   

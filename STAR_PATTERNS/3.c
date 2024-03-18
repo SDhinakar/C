@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int i, j, rows,number=1;
+    int i, j, rows;
     printf("Enter the number of rows: ");
     scanf("%d", &rows);
     printf("Odd pattern\n");

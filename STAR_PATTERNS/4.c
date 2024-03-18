@@ -9,6 +9,7 @@ int main()
         {
             printf("%c",alps++);
         }
+        alps='a';
         printf("\n");
     }
     char small='a';

@@ -1,20 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int rows ,a , count=1;
-    printf("enter the no. of rows: ");
-    scanf("%d",&rows);
-    for(int i=1;i<=rows;i++)
+    int n,i,j,nums=1;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
-        for(int j=1;j<=i;j++)
+        for(j=1;j<=i;j++,nums++)
         {
-            printf("%d",count++);
-            if(i>j)
+            printf("%d",nums);
+            if(j<i)
             {
                 printf("*");
             }
         }
         printf("\n");
     }
-    
+
 }

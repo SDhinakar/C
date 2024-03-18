@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main()
 {
-    int caps=1;
     int i,j,rows;
     scanf("%d",&rows);
     
