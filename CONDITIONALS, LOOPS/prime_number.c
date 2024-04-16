@@ -10,7 +10,7 @@ int main()
         printf("Not a prime number");
         return 0;
     }
-    for(int i=2;i<=n/2;i++)
+    for(int i=2;i*i<=n;i++)
     {
         if(n%i==0)
         {

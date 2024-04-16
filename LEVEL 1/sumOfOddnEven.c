@@ -8,7 +8,7 @@ void main() {
     while (number > 0) {
         int temp = number%10;
 
-        if (position%2 == 0) {
+        if (temp%2 == 0) {
             sum_even += temp;
         } else {
             sum_odd += temp;

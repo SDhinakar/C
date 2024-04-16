@@ -1,10 +1,11 @@
 #include<stdio.h>
 
 int main() {
-    int number=0, a;
+    int number=0;
     scanf("%d", &number);
 
-    while(a!=1) {
+    while(1) 
+    {
         printf("%d->", number);
         if (number%2 == 0) 
         {
@@ -16,7 +17,7 @@ int main() {
         }
         if (number == 1) {
             printf("1");
-            a=1;
+            break;
         }
     }
 }
