@@ -12,7 +12,6 @@ int main() {
     while (temp>0)
     {
         int digit = temp%10;
-
         reversedNumber = reversedNumber*10 + digit;
         temp /= 10;
     }

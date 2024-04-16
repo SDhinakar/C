@@ -8,13 +8,14 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    originalNum = num; 
+    // originalNum = num; 
     
-    while(originalNum!=0){
-        count++;
-        originalNum/=10;
-    }
-    
+    // while(originalNum!=0){
+    //     count++;
+    //     originalNum/=10;
+    // }
+    count=(int)log10(num)+1;
+
     originalNum=num;
     
     while (num != 0) {
